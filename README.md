@@ -1,13 +1,12 @@
 # challenge19_Repo
-
-
+  Module 19 Challenge
 
 # User Story
-Role: Fintech Finder’s lead developer
+- Role: Fintech Finder’s lead developer
 
-Goal: To develop and test the code that will integrate the Ethereum blockchain network into the application in order to enable your customers to instantly pay the fintech professionals whom they hire with cryptocurrency.
+- Goal: To develop and test the code that will integrate the Ethereum blockchain network into the application in order to enable your customers to instantly pay the fintech professionals whom they hire with cryptocurrency.
 
-Reason: Fintech Finder is an application that its customers can use to find fintech professionals from among a list of candidates, hire them, and pay them
+- Reason: Fintech Finder is an application that its customers can use to find fintech professionals from among a list of candidates, hire them, and pay them
 
 
 # Requirements
@@ -40,6 +39,45 @@ The execution of this project is broken into three steps:
 The following libraries and dependencies were deployed:
 
 Import Ethereum Transaction Functions into the Fintech Finder Application
-
+import streamlit as st
+from dataclasses import dataclass
+from typing import Any, List
+from web3 import Web3
+w3 = Web3(Web3.HTTPProvider('HTTP://127.0.0.1:7545'))
+import os
+import requests
+from dotenv import load_dotenv
+load_dotenv()
+from bip44 import Wallet
+from web3 import Account
+from web3 import middleware
+from web3.gas_strategies.time_based import medium_gas_price_strategy
+from crypto_wallet import generate_account
+from crypto_wallet import get_balance
+from crypto_wallet import send_transaction 
 
 # Explanation and Usage of Streamlit Application
+Send a test transaction by using the application’s web interface, and then
+look up the resulting transaction hash in Ganache using the following steps:
+
+1. From your terminal navigate to `fintech_finder.py` and `crypto_wallet.py` files.
+Be sure to activate your Conda `dev` environment if it is not already active.
+
+2. To launch the Streamlit application, type `streamlit run fintech_finder.py`.
+
+3. On the resulting webpage, select a candidate that you would like to hire
+from the appropriate drop-down menu. Then, enter the number of hours that you
+would like to hire them for. (Remember, you do not have a lot of ether in
+your account, so you cannot hire them for long!)
+
+4. Click the Send Transaction button to sign and send the transaction with
+your Ethereum account information. If the transaction is successfully
+communicated to Ganache, validated, and added to a block,
+a resulting transaction hash code will be written to the Streamlit
+application sidebar. See screenshot below:
+
+5. Navigate to the Ganache accounts tab and locate your account (index 0).
+
+6. Navigate to the Ganache transactions tab and locate the transaction. see screenshot below:
+
+
