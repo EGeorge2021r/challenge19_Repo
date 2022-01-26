@@ -76,8 +76,6 @@ communicated to Ganache, validated, and added to a block,
 a resulting transaction hash code will be written to the Streamlit
 application sidebar. See screenshot below:
 
-5. Navigate to the Ganache accounts tab and locate your account (index 0).
-
-6. Navigate to the Ganache transactions tab and locate the transaction. see screenshot below:
+5. Navigate to the Ganache transactions tab and locate the transaction. see screenshot below:
 
 

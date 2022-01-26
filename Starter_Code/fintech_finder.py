@@ -276,29 +276,28 @@ if st.sidebar.button("Send Transaction"):
     # Save the returned transaction hash as a variable named `transaction_hash`
     # YOUR CODE HERE
     # Send the transaction to the ethereum blockchain
-    #transaction_hash = w3.eth.sendTransaction(account, candidate_address, wage)
-    #transaction_hash = send_transaction(w3, account, candidate_address, wage)
-    transaction_hash = w3.eth.sendTransaction
+     transaction_hash = w3.eth.sendTransaction
+     
     # Access accounts on the blockchain
-    w3.eth.accounts
+     w3.eth.accounts
 
     # Set the candidate_address 
-    Sender = (candidate_database[person][0])
+     Sender = (candidate_database[person][0])
 
     # Convert balance from ether to wei
-    wage = w3.toWei(300, 'Wei')
+     wage = w3.toWei(300, 'Wei')
 
     # Display the wei balance
-    wage 
+     wage 
 
     # Markdown for the transaction hash
-    st.sidebar.markdown("#### Validated Transaction Hash")
+     st.sidebar.markdown("#### Validated Transaction Hash")
 
     # Write the returned transaction hash to the screen
-    st.sidebar.write(transaction_hash)
+     st.sidebar.write(transaction_hash)
 
     # Celebrate your successful payment
-    st.balloons()
+     st.balloons()
 
 # The function that starts the Streamlit application
 # Writes FinTech Finder candidates to the Streamlit page
