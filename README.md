@@ -1,4 +1,4 @@
-# challenge19_Repo
+# Challenge19_Repo
   Module 19 Challenge
 
 # User Story
@@ -74,7 +74,7 @@ your account, so you cannot hire them for long!)
 your Ethereum account information. If the transaction is successfully
 communicated to Ganache, validated, and added to a block,
 a resulting transaction hash code will be written to the Streamlit
-application sidebar. See screenshot below:
+application sidebar. See screenshot 1 and 2 below:
 
 5. Navigate to the Ganache accounts tab and locate your account (index 0).
 
