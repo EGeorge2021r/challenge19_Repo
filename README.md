@@ -75,7 +75,10 @@ your Ethereum account information. If the transaction is successfully
 communicated to Ganache, validated, and added to a block,
 a resulting transaction hash code will be written to the Streamlit
 application sidebar. See screenshot 1 and 2 below:
+![streamlit_web3  interface1](https://user-images.githubusercontent.com/88909565/151270539-8f11db21-68c2-41b7-b87b-31fe4955684c.png)
+![Streamlit_web interface 2](https://user-images.githubusercontent.com/88909565/151270575-c814f4c8-f66c-4cec-a346-c32985953fde.png)
 
-5. Navigate to the Ganache accounts tab and locate your account (index 0).
+5. Navigate to the Ganache accounts tab and locate your account.
 
 6. Navigate to the Ganache transactions tab and locate the transaction. see screenshot below:
+![Ganache_Screen shot](https://user-images.githubusercontent.com/88909565/151271007-02421541-cd7d-4414-a75e-827774594ad3.png)
