@@ -25,6 +25,7 @@
 
 ################################################################################
 # Imports
+from email.headerregistry import Address
 import streamlit as st
 from dataclasses import dataclass
 from typing import Any, List
@@ -152,7 +153,7 @@ st.sidebar.write(account.address)
 # YOUR CODE HERE
 get_balance = w3.eth.get_balance(account.address)
 
-eth_balance = st.sidebar.write('ether balance')
+ether_balance = st.sidebar.write('ether balance')
 ##########################################
 
 # Create a select box to chose a FinTech Hire candidate
@@ -276,19 +277,19 @@ if st.sidebar.button("Send Transaction"):
     # Save the returned transaction hash as a variable named `transaction_hash`
     # YOUR CODE HERE
     # Send the transaction to the ethereum blockchain
-     transaction_hash = w3.eth.sendTransaction
+     transaction_hash = send_transaction(w3, account, candidate_address, wage)
      
     # Access accounts on the blockchain
-     w3.eth.accounts
+     #w3.eth.accounts
 
     # Set the candidate_address 
-     Sender = (candidate_database[person][0])
+    # Sender = (candidate_database[person][0])
 
     # Convert balance from ether to wei
-     wage = w3.toWei(300, 'Wei')
+     #wage = w3.toWei(300, 'Wei')
 
     # Display the wei balance
-     wage 
+    # wage 
 
     # Markdown for the transaction hash
      st.sidebar.markdown("#### Validated Transaction Hash")
