@@ -75,15 +75,19 @@ communicated to Ganache, validated, and added to a block, a resulting transactio
 application sidebar. See screenshot 1 and 2 below:
 
 ## Find Candidate Screenshot
-![streamlit_web3  interface1](https://user-images.githubusercontent.com/88909565/151270539-8f11db21-68c2-41b7-b87b-31fe4955684c.png)
+![streamlit_web3_ interface1](https://user-images.githubusercontent.com/88909565/151491930-9b4695c6-2ff4-4736-977c-ab87f4175406.png)
 
-## Send Transaction screenshot
-![Streamlit_web interface 2](https://user-images.githubusercontent.com/88909565/151270575-c814f4c8-f66c-4cec-a346-c32985953fde.png)
+## Send Transaction Validation Hash screenshot
+![Validated Transaction Hash screenshot](https://user-images.githubusercontent.com/88909565/151492404-850f98d8-ae96-4a7f-a89b-d40a469a48a4.png)
 
 5. Navigate to the Ganache accounts tab and locate your account.
 ## Ganache account Navigation screenshot
-![Ganache Account Screen shot](https://user-images.githubusercontent.com/88909565/151271352-ffb83cc5-f359-4cba-8ba8-e18646cc7e56.png)
+![Ganache Account Screen shot](https://user-images.githubusercontent.com/88909565/151491998-1d464b55-5844-4e01-92c6-b79c07eb5e9c.png)
 
 6. Navigate to the Ganache transactions tab and locate the transaction. see screenshot below:
 ## Ganache Transactions output screenshot
-![Ganache_Screen shot](https://user-images.githubusercontent.com/88909565/151271007-02421541-cd7d-4414-a75e-827774594ad3.png)
+![Ganache_Screen_ shot](https://user-images.githubusercontent.com/88909565/151492257-d5e0627b-0cc8-45d2-9413-d272fa262e64.png)
+
+## Ganache Contract validation screenshot
+![Ganache Contract Call_Screen shot](https://user-images.githubusercontent.com/88909565/151493056-f2c754eb-3503-4180-b1c8-be540d50023d.png)
+
