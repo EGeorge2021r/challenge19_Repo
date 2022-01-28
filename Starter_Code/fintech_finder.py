@@ -279,18 +279,6 @@ if st.sidebar.button("Send Transaction"):
     # Send the transaction to the ethereum blockchain
      transaction_hash = send_transaction(w3, account, candidate_address, wage)
      
-    # Access accounts on the blockchain
-     #w3.eth.accounts
-
-    # Set the candidate_address 
-    # Sender = (candidate_database[person][0])
-
-    # Convert balance from ether to wei
-     #wage = w3.toWei(300, 'Wei')
-
-    # Display the wei balance
-    # wage 
-
     # Markdown for the transaction hash
      st.sidebar.markdown("#### Validated Transaction Hash")
 
